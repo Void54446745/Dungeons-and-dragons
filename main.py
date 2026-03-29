@@ -47,7 +47,7 @@ while running:
         left = True
     elif left == True:
         left = False
-    
+    screen.blit(laser_surf, laser_rect)
     screen.blit(player_surf, player_rect)
     pygame.display.update()
 
